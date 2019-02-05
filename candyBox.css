@@ -1,6 +1,8 @@
 h1 {
 	color: white;
-	background: rgb(237, 181, 226);
+	background: rgb(222, 148, 205);
+	padding-top: 20px;
+	padding-bottom: 20px;
 	text-align: center;
 	margin: 0;
 }
@@ -11,11 +13,35 @@ h1 {
 
 body {
 	margin: 0;
-	background: rgb(222, 148, 205);
+	background: rgb(237, 181, 226);
+	padding: 0;
 }
 
 .ball {
-	width: 30%;
 	border-radius: 50%;
-	background-color: purple;
+	content:url(imagens/brigadeiro.jpg);
+	float: right;
+	margin: 2%;
+}
+
+#container {
+	margin: 20px auto;
+	max-width: 600px;
+}
+
+.steps{
+	color: white;
+	text-align: center;
+}
+
+div.box{
+	vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 32%;
+    color: white;
+}
+
+.step2{
+	
 }
