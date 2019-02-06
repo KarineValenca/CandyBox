@@ -47,8 +47,47 @@ div.box{
 	width: 90%;
 	border-radius: 50%;
 	background-color: purple;
-	padding-bottom: 7%;
+	padding-bottom: 6%;
 	line-height: 200%;
 	margin: 2%;
 	font-size: 500%;
+	float: right;
+}
+
+.flavour{
+	width: 90%;
+	border-radius: 50%;
+	background-color: purple;
+	padding-bottom: 6%;
+	line-height: 200%;
+	margin: 2%;
+	font-size: 500%;
+	float: right;
+}
+
+.box-style{
+	width: 90%;
+	border-radius: 50%;
+	background-color: purple;
+	padding-bottom: 6%;
+	line-height: 200%;
+	margin: 2%;
+	font-size: 500%;
+	float: right;
+}
+
+.step2 {
+	display: none;
+}
+
+.step3 {
+	display: none;
+}
+
+.step4 {
+	display: none;
+}
+
+.step5 {
+	display: none;
 }
