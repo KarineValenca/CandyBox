@@ -29,24 +29,39 @@
 	</div>
 
 	<div id="container" class="step3">
-		<h2 class="steps"> Passo 3: Escolha os sabores dos seus doces</h2>
-		<div class="box"><div class="ball flavour"></div><span class="candy-flavour">Tradicional</span></div>
-		<div class="box"><div class="ball flavour"></div><span class="candy-flavour">Nutella</span></div>
-		<div class="box"><div class="ball flavour"></div><span class="candy-flavour">Coco</span></div>
-		<div class="box"><div class="ball flavour"></div><span class="candy-flavour">Amargo</span></div>
-		<div class="box"><div class="ball flavour"></div><span class="candy-flavour">Limão</span></div>
-		<div class="box"><div class="ball flavour"></div><span class="candy-flavour">Paçoca</span></div>
+		<h2 class="steps"> Passo 3: Escolha os <span id="boxSize"></span> sabores dos seus doces</h2>
+		<div><span id="flavours">Sabores escolhidos:</span></div>
+		<br>
+		<div class="box"><div class="ball flavour">Tradicional</div><span class="candy-flavour">Tradicional</span></div>
+		<div class="box"><div class="ball flavour">Nutella</div><span class="candy-flavour">Nutella</span></div>
+		<div class="box"><div class="ball flavour">Coco</div><span class="candy-flavour">Coco</span></div>
+		<div class="box"><div class="ball flavour">Amargo</div><span class="candy-flavour">Amargo</span></div>
+		<div class="box"><div class="ball flavour">Limão</div><span class="candy-flavour">Limão</span></div>
+		<div class="box"><div class="ball flavour">Paçoca</div><span class="candy-flavour">Paçoca</span></div>
 	</div>
 
 	<div id="container" class="step4">
 		<h2 class="steps"> Passo 4: Escolha a sua caixa</h2>
-		<div class="box"><div class="ball box-style">3</div><span class="candy-size">Lisa</span></div>
-		<div class="box"><div class="ball box-style">6</div><span class="candy-size">Listrada</span></div>
-		<div class="box"><div class="ball box-style">12</div><span class="candy-size">Colorida</span></div>
+		<div class="box"><div class="ball box-style">Lisa</div><span class="candy-size">Lisa</span></div>
+		<div class="box"><div class="ball box-style">Listrada</div><span class="candy-size">Listrada</span></div>
+		<div class="box"><div class="ball box-style">Colorida</div><span class="candy-size">Colorida</span></div>
 	</div>
 
 	<div id="container" class="step5">
 		<h2 class="steps"> Passo 5: Preencha os dados do pagamento e dados de entrega</h2>
+		Nome: <input type="text" name="name"><br>
+		Endereço de entrega: <input type="text" name="address"><br>
+		Número do Cartão <input type="text" name="cart-number"><br>
+		<input type="submit" id="submit" value="Confirmar">
+	</div>
+
+	<div id="container" class="step6">
+		<h2 class="steps"> Passo 6: Confirme a sua caixa e os dados de entrega</h2>
+		Doce escolhido: <span class="candyChosen"></span><br>
+		Tamanho da caixa: <span id="sizeChosen"></span><br>
+		Sabores do <span class="candyChosen"></span>: <span id="flavoursChosen"></span><br>
+		Estilo da caixa: <span id="styleChosen"></span><br>
+		Dados de entrega: <span id="addressData"></span><br>
 	</div>
 
 	<script type="text/javascript" src="candyBox.js"></script>

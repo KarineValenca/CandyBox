@@ -61,7 +61,7 @@ div.box{
 	padding-bottom: 6%;
 	line-height: 200%;
 	margin: 2%;
-	font-size: 500%;
+	font-size: 200%;
 	float: right;
 }
 
@@ -72,7 +72,7 @@ div.box{
 	padding-bottom: 6%;
 	line-height: 200%;
 	margin: 2%;
-	font-size: 500%;
+	font-size: 200%;
 	float: right;
 }
 
@@ -89,5 +89,9 @@ div.box{
 }
 
 .step5 {
+	display: none;
+}
+
+.step6 {
 	display: none;
 }
